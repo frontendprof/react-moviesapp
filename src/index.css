@@ -12,3 +12,16 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie{
+  width: 300px;
+}
+
+.movie img{
+  max-width: 100%;
+}
