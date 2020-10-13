@@ -13,12 +13,37 @@ body {
 }
 
 
+
 .App{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.movie{
+
+header{
+  background-color: #4b4f7a;
+  padding:1rem;
+  width: 95vw;
+  margin:0 auto;
+  
+}
+
+header input{
+  display: grid;
+  width: 60%;
+  border:3px solid rgb(193, 236, 75);
+  padding: .7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color:rgb(15, 12, 185);
+  margin:0 auto;
+  
+}
+
+
+.movie-cont{
   background-color: #373b69;
   margin:1rem;
   width: 300px;
@@ -28,7 +53,7 @@ body {
   position: relative;
 }
 
-.movie img{
+.movie-cont img{
   max-width: 100%;
 }
 
@@ -54,6 +79,6 @@ body {
   transition: transform .6s linear;
 }
 
-.movie:hover .movie-overview{
+.movie-cont:hover .movie-overview{
   transform: translateY(0);
 }
