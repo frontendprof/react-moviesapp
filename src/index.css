@@ -33,6 +33,7 @@ header input{
   display: grid;
   width: 60%;
   border:3px solid rgb(193, 236, 75);
+  border-radius: 50px;
   padding: .7rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -41,6 +42,10 @@ header input{
   margin:0 auto;
   
 }
+
+/* header input:focus{
+  outline:0;
+} */
 
 
 .movie-cont{
